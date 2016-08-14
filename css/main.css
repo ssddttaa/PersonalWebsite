@@ -1,7 +1,33 @@
 .jumbotron{
     height: 100vh;
-    background-color: #3498db;
+    background-color: #ecf0f1;
 }
-.headshot{
 
+.small{
+    display:inline;
+}
+
+.large{
+    display:inline;
+    font-size: 6em !important;
+}
+
+h1{
+    text-align:center;
+}
+
+.social-bar{
+    text-align: center;
+}
+
+
+.imText{
+    margin-right:0px;
+    padding-right:0px;
+    border-right:0px;
+}
+.fadeText{
+    margin-left:0px;
+    padding-left:0px;
+    border-left:0px;
 }
