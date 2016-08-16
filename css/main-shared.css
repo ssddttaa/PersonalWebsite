@@ -1,24 +1,40 @@
+/* Navbar CSS */
 .nav-transparent{
     opacity: 0.5;
-    background-color: #BDC3C7;
+    background-color: #ffffff;
+}
+/* Jumbotron CSS */
+.jumbotron-banner{
+    min-height: 100vh;
+    background-size: cover;
+    padding-top: 57px;
+    margin-bottom: 0px;
+    background-attachment: fixed;
 }
 
-.jumbotron{
-    min-height: 100vh;
+.jumbotron-transition{
+    max-height:50vh;
+    width:100%;
+    margin-top: 0px;
+    padding-top:0px;
+    margin-bottom: 0px;
+    padding-bottom:0px;
+}
+/* Main Section CSS */
+.main-banner-image{
     background-image: url("../assets/UPennBanner_Blur_Medium.jpg");
-    background-size: cover;
     display:flex;
     flex-direction:column;
     justify-content: center;
-    padding-top: 57px;
 }
 
 .introduce-row{
-    background-color: #ecf0f1;
+    background-color: #ffffff;
     padding-left: 50px;
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 50px;
+    opacity: .75;
 }
 
 .introduce-title{
@@ -38,4 +54,21 @@
 
 .introduce-text a{
     color: #3498db;
+}
+/* Video Card Section */
+.video-row{
+    display: flex;
+    flex-direction:row;
+}
+.video-row div{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.jumbotron-video-cards{
+
 }

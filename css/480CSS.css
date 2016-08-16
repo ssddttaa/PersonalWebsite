@@ -1,4 +1,10 @@
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
+    .introduce-title{
+        font-size: 2.0em !important;
+    }
 
+    .introduce-text{
+        font-size: 1.5em;
+    }
 }
