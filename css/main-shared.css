@@ -1,0 +1,41 @@
+.nav-transparent{
+    opacity: 0.5;
+    background-color: #BDC3C7;
+}
+
+.jumbotron{
+    min-height: 100vh;
+    background-image: url("../assets/UPennBanner_Blur_Medium.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-top: 57px;
+}
+
+.introduce-row{
+    background-color: #ecf0f1;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.introduce-title{
+    color: #22313F !important;
+    text-align: left;
+}
+
+.introduce-text{
+    color: #67809F !important;
+    text-shadow: -1px 0 black !important;
+    text-align: left;
+}
+
+.social-bar{
+    display: block;
+}
+
+.introduce-text a{
+    color: #3498db;
+}
