@@ -1,0 +1,29 @@
+/*60% Complete
+Java
+60% Complete
+Python
+60% Complete
+Computer Vision(OpenCV)
+60% Complete
+O-Caml
+60% Complete
+MySQL
+60% Complete
+CSS
+60% Complete
+C++
+60% Complete
+Bootstrap*/
+
+//Title is the title of the skill, level is the level of the skill out of 1. Relevant skills is keywords. Relevant experience is links.
+{
+  "skills":[
+    {
+      "title":"Java",
+      "level":"",
+      "relevant-courses":"",
+      "relevant-projects":[
+      ]
+    }
+  ]
+}

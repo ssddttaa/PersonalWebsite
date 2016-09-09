@@ -74,56 +74,158 @@
     </div>
 
     <div class = "jumbotron jumbotron-transition">
-            <video loop muted autoplay poster = "assets/Thumbnail_Picture.png">
-                <source src = "assets/Background_Movie_Cut.mp4" type = "video/mp4">
+            <video loop muted autoplay poster = "assets/Thumbnail_Picture.png" class = "video-thumbnail">
+                <source src = "assets/Cut_Video.mp4" type = "video/mp4">
             </video>
     </div>
 
-    <div class = "jumbotron jumbotron-banner">
+    <div class = "jumbotron jumbotron-banner jumbotron-video-cards">
         <div class = "container">
             <div class = "row">
-                <div class = "col-xs-6">
-                    <div class = "row video-row">
-                        <div class = "col-xs-4">
-                            <h4> Project 1</h4>
-                            <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h6>
-                            <a class="btn btn-social-icon btn-github">
-                                <span class="fa fa-github"></span>
-                            </a>
-                            <a class="btn btn-social-icon btn-pinterest">
-                                <span class="fa fa-youtube"></span>
-                            </a>
-                        </div>
-                        <div class = "col-xs-4">
-                            <h4> Project 1</h4>
-                            <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h6>
-                        </div>
-                        <div class = "col-xs-4">
-                            <h4> Project 1</h4>
-                            <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h6>
-                        </div>
-                    </div>
-                    <div class = "row video-row">
-                        <div class = "col-xs-4">
-                            <h4> Project 1</h4>
-                            <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h6>
-                        </div>
-                        <div class = "col-xs-4">
-                            <h4> Project 1</h4>
-                            <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h6>
-                        </div>
-                        <div class = "col-xs-4">
-                            <h4> Project 1</h4>
-                            <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h6>
-                        </div>
-                    </div>
+                <h1 class = "projects"> Projects I've Worked On</h1>
+            </div>
+            <div class = "row white-background">
+                <div class = "col-xs-6" id = "video-view">
+                </div>
+                <div class = "col-xs-offset-1 col-xs-5 video-previewer" id = "video-previewer">
+                    <iframe src = "https://www.youtube.com/embed/7JTrPXHiUyw" class = "video-iframe" id = "video-iframe"></iframe>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class = "jumbotron jumbotron-transition code-banner-background">
+        <div class = "row">
+            <img src = "assets/code_banner.png" class = "code-banner">
+        </div>
+    </div>
+
+    <div class = "jumbotron jumbotron-banner skills-banner">
+        <div class = "container">
+            <div class = "row">
+                <h1 class = "projects skills"> Skills </h1>
+            </div>
+            <div class = "row">
+                <div class = "skill-container col-xs-7">t
+                    <div class = "row">
+                        <div class = "col-xs-3">
+                            <h3> iOS Dev</h3>
+                        </div>
+                        <div class = "col-xs-8">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-xs-3">
+                            <h3> Java</h3>
+                        </div>
+                        <div class = "col-xs-8">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-xs-3">
+                            <h3> Python</h3>
+                        </div>
+                        <div class = "col-xs-8">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-xs-3">
+                            <h3> Computer Vision(OpenCV)</h3>
+                        </div>
+                        <div class = "col-xs-8">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-xs-3">
+                            <h3> O-Caml</h3>
+                        </div>
+                        <div class = "col-xs-8">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-xs-3">
+                            <h3> MySQL</h3>
+                        </div>
+                        <div class = "col-xs-8">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-xs-3">
+                            <h3> CSS</h3>
+                        </div>
+                        <div class = "col-xs-8">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-xs-3">
+                            <h3> C++</h3>
+                        </div>
+                        <div class = "col-xs-8">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-xs-3">
+                            <h3> Bootstrap</h3>
+                        </div>
+                        <div class = "col-xs-8">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-xs-1"></div>
+                <div class = "col-xs-4 relevant-skills"><h3>Relevant Experience</h3></div>
+            </div>
+        </div>
+    </div>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src = "bower_components/jquery/dist/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src = "bower_components/flip/dist/jquery.flip.min.js"></script>
     <script src = "js/main.js"></script>
 </body>
 </html>

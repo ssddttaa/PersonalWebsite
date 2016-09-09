@@ -23,5 +23,8 @@
     "bootstrap-social": "^5.0.0",
     "jquery": "^3.1.0",
     "bootstrap": "^3.3.7"
+  },
+  "resolutions": {
+    "jquery": "1.9.1 - 3"
   }
 }
