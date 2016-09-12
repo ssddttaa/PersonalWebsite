@@ -147,8 +147,8 @@
 
 /* Skills CSS */
 .skills-banner{
-    /*background-image: url('../assets/orange-background.png');*/
-    background-color: #90C695;
+    background-image: url('../assets/orange-background.png');
+    /*background-color: #90C695;*/
 }
 
 .skills{
@@ -171,8 +171,8 @@
 }
 
 .skill-container{
-    /*background-image: url('../assets/orange-background-dark-noise.png');*/
-    background-color: #62A867;
+    background-image: url('../assets/orange-background-dark-noise.png');
+    /*background-color: #62A867;*/
     padding-left: 35px;
     padding-top: 35px;
     padding-right: 15px;
@@ -181,9 +181,35 @@
 
 .relevant-skills{
     padding-top: 15px;
-    background-color: #62A867;
-    /*background-image: url('../assets/orange-background-dark-noise.png');*/
+    /*background-color: #62A867;*/
+    background-image: url('../assets/orange-background-dark-noise.png');
 }
 .relevant-skills h3{
     text-decoration: underline;
+}
+
+/*
+*   In Construction Section
+*/
+.construction{
+    width: 200px !important;
+    height: 200px !important;
+}
+
+
+.bigger-glyphicon{
+    font-size: 15em;
+}
+
+.vertical-center-container{
+    flex-direction: column;
+    margin: auto;
+}
+
+.banner-display-flex{
+    display: flex;
+}
+
+.under-construction{
+    text-align: center;
 }
