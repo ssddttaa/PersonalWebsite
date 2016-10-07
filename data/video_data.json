@@ -1,20 +1,32 @@
 {"videos":[
     {
-      "video-title":"Mesh Generation",
+      "video-title":"TravelAR",
+      "video-description":"Description",
+      "github-url":"https://github.com/ZhengyiLuo/TravelAR",
+      "youtube-url":"https://www.youtube.com/embed/02FAEQlE0uk"
+    },
+    {
+      "video-title":"Bentley Internship",
       "video-description":"Description",
       "github-url":"",
+      "youtube-url":"https://www.youtube.com/embed/e3xZObE9fBI"
+    },
+    {
+      "video-title":"Mesh Generation",
+      "video-description":"Description",
+      "github-url":"https://github.com/ssddttaa/RosTriangulation",
       "youtube-url":"https://www.youtube.com/embed/7JTrPXHiUyw"
     },
     {
       "video-title":"PGSS Simulation",
       "video-description":"Description",
-      "github-url":"",
+      "github-url":"https://github.com/ssddttaa/GovSchool_Dynamics",
       "youtube-url":"https://www.youtube.com/embed/OIBgcV0kYew"
     },
     {
       "video-title":"iOculist",
       "video-description":"Description",
-      "github-url":"",
+      "github-url":"https://github.com/ProjectBarks/iOculist",
       "youtube-url":"https://www.youtube.com/embed/kYWkxExmPag"
     },
     {

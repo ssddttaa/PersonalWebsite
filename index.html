@@ -38,10 +38,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav" id = "navbar">
                     <li class="active nav-button"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                    <li class = "nav-button"><a href="#">Projects</a></li>
-                    <li class = "nav-button"><a href="#">Skills</a></li>
-                    <li class = "nav-button"><a href="#">Leadership</a></li>
-                    <li class = "nav-button"><a href="#">Contact</a></li>
+                    <li class = "nav-button"><a href="#projects">Projects</a></li>
+                    <li class = "nav-button"><a href="#under_construction">Skills</a></li>
+                    <li class = "nav-button"><a href="#under_construction">Leadership</a></li>
+                    <li class = "nav-button"><a href="mailto:sadatalishaik@gmail.com">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -51,20 +51,23 @@
     <div class = "jumbotron jumbotron-banner main-banner-image">
         <div class = "container">
             <div class = "row">
-                <div class = "col-md-offset-6 col-xs-12 col-sm-12 col-md-6 col-lg-6 introduce-row">
+                <!--<div class = "col-xs-hidden col-md-6">
+                    <img src = "assets/Cropped_background.png">
+                </div>-->
+                <div class = "col-xs-12 col-sm-12 col-md-offset-6 col-md-6 col-lg-6 introduce-row">
                     <h1 class = "introduce-title noise"> Hacker. Organizer. Leader.</h1>
-                    <h4 class = "introduce-text">My name's Sadat Shaik, a rising sophomore at the University of Pennsylvania. I'm a teaching assistant for <a href = "https://www.cis.upenn.edu/~cis121/current/">CIS 121</a>, lead organizer of <a href = "http://www.thedp.com/gallery/hebocon-at-kings-court-english">STWING / UPenn Robotics Fair</a>, Quadcopter enthusiast.</h4>
+                    <h4 class = "introduce-text">I am Sadat Shaik, a rising sophomore at the University of Pennsylvania. I'm a teaching assistant for <a href = "https://www.cis.upenn.edu/~cis121/current/">CIS 121</a>, lead organizer of <a href = "http://www.thedp.com/gallery/hebocon-at-kings-court-english">STWING / UPenn Robotics Fair</a>, Quadcopter enthusiast.</h4>
                     <div class = "social-bar">
-                        <a class="btn btn-social-icon btn-linkedin" alt = "linkedin">
+                        <a class="btn btn-social-icon btn-linkedin" alt = "linkedin" href = "https://www.linkedin.com/in/sadat-shaik-415712126" target = "blank">
                             <span class="fa fa-linkedin"></span>
                         </a><!--
-                        --><a class="btn btn-social-icon btn-github">
+                        --><a class="btn btn-social-icon btn-github" href  = "https://www.github.com/ssddttaa" target = "blank">
                             <span class="fa fa-github"></span>
                         </a><!--
-                        --><a class="btn btn-social-icon btn-google">
+                        --><a class="btn btn-social-icon btn-google" href = "mailto:sadatalishaik@gmail.com">
                             <span class="fa fa-google"></span>
                         </a><!--
-                        --><a class="btn btn-social-icon btn-reddit">
+                        --><a class="btn btn-social-icon btn-reddit" href = "assets/Technical_Resume.pdf" target = "blank">
                             <span class="fa fa-file"></span>
                         </a>
                     </div>
@@ -79,7 +82,7 @@
             </video>
     </div>
 
-    <div class = "jumbotron jumbotron-banner jumbotron-video-cards">
+    <div class = "jumbotron jumbotron-banner jumbotron-video-cards" id = "projects">
         <div class = "container">
             <div class = "row">
                 <h1 class = "projects"> Projects I've Worked On</h1>
@@ -101,7 +104,14 @@
     </div>
 
     <div class = "jumbotron jumbotron-banner skills-banner banner-display-flex">
-        <div class = "container vertical-center-container">
+        <div class = "container">
+            <div class = "row">
+                <h1> Skills </h1>
+            </div>
+        </div>
+    </div>
+    <!--<div class = "jumbotron jumbotron-banner skills-banner banner-display-flex">
+        <div class = "container vertical-center-container" id = "under_construction">
             <div class = "row">
                 <div class = "hidden-xs col-lg-3">
                     <span class="glyphicon glyphicon-search glyphicon glyphicon-alert bigger-glyphicon" aria-hidden="true"></span>
@@ -114,7 +124,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!-- Latest compiled and minified JavaScript -->
     <script src = "bower_components/jquery/dist/jquery.min.js"></script>

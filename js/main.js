@@ -76,8 +76,14 @@ videoView.prototype.setupVideos = function(){
                 $newCard.addClass('col-xs-4');
                 $newCard.addClass('flipper');
                 $newCard.append($('<h4>' + parsedJSON.videos[i]['video-title'] + '</h4>'));
-                $newCard.append($('<iframe src = '+parsedJSON.videos[i]['youtube-url']+' class = "video-thumbnail" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>'));
-                $newCard.append($('<a class="btn btn-social-icon btn-github"><span class="fa fa-github"></span></a>'));
+                if(parsedJSON.videos[i]['youtube-url'] !== '')
+                {
+                    $newCard.append($('<iframe src = '+parsedJSON.videos[i]['youtube-url']+' class = "video-thumbnail" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>'));
+                }
+                if(parsedJSON.videos[i]['github-url']+'' !== '')
+                {
+                    $newCard.append($('<a class="btn btn-social-icon btn-github" target = "blank" href = ' + parsedJSON.videos[i]['github-url'] + '><span class="fa fa-github"></span></a>'));
+                }
                 $newCard.append($('<a class="btn btn-social-icon btn-pinterest" href = '+parsedJSON.videos[i]['youtube-url']+'><span class="fa fa-youtube"></span></a>'));
                 var $maskDiv = $('<div class = "mask-div"></div>');
                 $newCard.append($maskDiv);
