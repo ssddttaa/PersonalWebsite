@@ -63,153 +63,37 @@
     display: block;
 }
 
-
-/* Video Card Section */
-.video-row{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-}
-.video-row div{
-    background-color: white;
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    min-width: 150px;
-}
-.video-row div .active{
-    background-color: #ECECEC !important;
-}
-.video-row .btn{
-    z-index: 10000 !important;
+.social-btn{
     margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: black;
 }
-
-.jumbotron-video-cards{
-    margin-top:-5px !important;
-    background-image: url('../assets/background-noise-blue.jpg');
-    background-attachment: scroll !important;
-}
-
-.video-thumbnail{
-    width:100%;
-    height: auto !important;
-}
-
-.mask-div{
-    position: absolute;
-    margin-left:0px !important;
-    margin-right:0px !important;
-    margin-top:0px !important;
+.social-btn .social-txt{
     margin-bottom:0px !important;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:100%;
-    opacity:0.0;
-}
-
-.video-previewer{
-    background-color: transparent;
-    margin-top:10px;
-    padding-left: 0px;
-    padding-right : 0px;
-}
-
-.video-iframe{
-    height:100% !important;
-    width : 100% !important;
-}
-.projects{
-    margin-left: 10px;
-    margin-bottom:50px;
-    color: #ecf0f1 !important;;
-}
-.white-background{
-    background-image: url('../assets/background-noise-dark-blue.jpg');
-    padding: 10px 20px 10px 20px;
-}
-
-.code-banner-background{
-    width: 100%;
-    height: auto;
-    background-image: url('../assets/code_banner.png');
-    background-attachment: fixed;
-}
-
-.code-banner{
-    width: 100% !important;
-    height: auto !important;
-    visibility:hidden;
-}
-
-/* Skills CSS */
-.skills-banner{
-    background-image: url('../assets/White-Background.png');
-    /*background-color: #90C695;*/
-}
-
-.skills{
-    color: black !important;
-}
-
-.progress .progress-bar-custom{
-    background-image: -webkit-linear-gradient(top, #5985BA 0%, #205594 100%);
-    background-image:      -o-linear-gradient(top, #5985BA 0%, #205594 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#5985BA), to(#205594));
-    background-image:         linear-gradient(to bottom, #5985BA 0%, #205594 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff286090', GradientType=0);
-    background-repeat: repeat-x;
-}
-
-.row div h3{
-    display: inline-block;
-    margin-top:-3px;
-    margin-bottom: 30px;
-}
-
-.skill-container{
-    background-image: url('../assets/orange-background-dark-noise.png');
-    /*background-color: #62A867;*/
-    padding-left: 35px;
-    padding-top: 35px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-}
-
-.relevant-skills{
-    padding-top: 15px;
-    /*background-color: #62A867;*/
-    background-image: url('../assets/orange-background-dark-noise.png');
-}
-.relevant-skills h3{
-    text-decoration: underline;
-}
-
-/*
-*   In Construction Section
-*/
-.construction{
-    width: 200px !important;
-    height: 200px !important;
-}
-
-
-.bigger-glyphicon{
-    font-size: 15em;
-}
-
-.vertical-center-container{
-    flex-direction: column;
-    margin: auto;
-}
-
-.banner-display-flex{
-    display: flex;
-}
-
-.under-construction{
+    margin-top:10px !important;
+    margin-left:5px !important;
+    color: white;
     text-align: center;
+}
+
+.fb{
+    background-color: #3B5998;
+}
+
+.linkedin{
+    background-color: #007bb6;
+}
+
+.github{
+    background-color: #444444;
+}
+
+.resume{
+    background-color: #f7931e;
+}
+
+.social-bar :hover{
+    opacity:1 !important;
+    cursor:pointer;
+    background-color: black;
 }

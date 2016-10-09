@@ -10,7 +10,7 @@ $(document).ready(function () {
     mainBar.setupButtons();
     var $videoView = $('#video-view');
     var videos = new videoView($videoView);
-    videos.setupVideos();
+    // videos.setupVideos();
     // setupScrollActions();
 });
 

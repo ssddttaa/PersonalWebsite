@@ -7,4 +7,26 @@
     .introduce-text{
         font-size: 1.5em;
     }
+
+    .social-btn{
+        width: 75px;
+        height: 75px;
+    }
+
+    .social-btn .social-txt{
+        font-size:1em;
+        margin-left: 0px !important;
+    }
+
+    .social-bar img{
+        width: 250%;
+        height: 250%;
+        display:inline-block;
+        margin-left: -12px;
+        margin-top: 5px;
+    }
+
+    .social-btn .facebook-txt{
+        margin-left:-150px;
+    }
 }

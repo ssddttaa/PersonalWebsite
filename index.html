@@ -12,40 +12,16 @@
     <link rel="stylesheet" href = "bower_components/bootstrap-social/bootstrap-social.css">
 
     <!-- Main CSS Stylesheets-->
+    <link rel="stylesheet" href = "css/main-shared.css">
     <link rel="stylesheet" href = "css/320CSS.css">
     <link rel="stylesheet" href = "css/480CSS.css">
     <link rel="stylesheet" href = "css/768CSS.css">
     <link rel="stylesheet" href = "css/992CSS.css">
     <link rel="stylesheet" href = "css/1200CSS.css">
-    <link rel="stylesheet" href = "css/main-shared.css">
+
 
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top nav-transparent">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav" id = "navbar">
-                    <li class="active nav-button"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                    <li class = "nav-button"><a href="#projects">Projects</a></li>
-                    <li class = "nav-button"><a href="#under_construction">Skills</a></li>
-                    <li class = "nav-button"><a href="#under_construction">Leadership</a></li>
-                    <li class = "nav-button"><a href="mailto:sadatalishaik@gmail.com">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     <!-- Banner Jumbotron -->
     <div class = "jumbotron jumbotron-banner main-banner-image">
@@ -54,82 +30,58 @@
                 <!--<div class = "col-xs-hidden col-md-6">
                     <img src = "assets/Cropped_background.png">
                 </div>-->
-                <div class = "col-xs-12 col-sm-12 col-md-offset-6 col-md-6 col-lg-6 introduce-row">
-                    <h1 class = "introduce-title noise"> Hacker. Organizer. Leader.</h1>
-                    <h4 class = "introduce-text">I am Sadat Shaik, a rising sophomore at the University of Pennsylvania. I'm a teaching assistant for <a href = "https://www.cis.upenn.edu/~cis121/current/">CIS 121</a>, lead organizer of <a href = "http://www.thedp.com/gallery/hebocon-at-kings-court-english">STWING / UPenn Robotics Fair</a>, Quadcopter enthusiast.</h4>
-                    <div class = "social-bar">
-                        <a class="btn btn-social-icon btn-linkedin" alt = "linkedin" href = "https://www.linkedin.com/in/sadat-shaik-415712126" target = "blank">
-                            <span class="fa fa-linkedin"></span>
-                        </a><!--
-                        --><a class="btn btn-social-icon btn-github" href  = "https://www.github.com/ssddttaa" target = "blank">
-                            <span class="fa fa-github"></span>
-                        </a><!--
-                        --><a class="btn btn-social-icon btn-google" href = "mailto:sadatalishaik@gmail.com">
-                            <span class="fa fa-google"></span>
-                        </a><!--
-                        --><a class="btn btn-social-icon btn-reddit" href = "assets/Technical_Resume.pdf" target = "blank">
-                            <span class="fa fa-file"></span>
-                        </a>
+                <div class = "col-xs-12 introduce-row">
+                    <div class = "col-xs-9 col-md-8" id = "introduce-text">
+                        <h1 class = "introduce-title noise"> Hacker. Researcher. Leader.</h1>
+                        <!--  I'm a teaching assistant for <a href = "https://www.cis.upenn.edu/~cis121/current/">CIS 121</a>, lead organizer of <a href = "http://www.thedp.com/gallery/hebocon-at-kings-court-english">STWING / UPenn Robotics Fair</a>, Quadcopter enthusiast. -->
+                        <h4 class = "introduce-text">I am Sadat Shaik, a rising sophomore in CS at the University of Pennsylvania.</h4>
+                        <div class = "social-bar">
+                            <a href = "https://www.facebook.com/sadat.shaik.3" target = "_blank">
+                                <div class = "col-xs-3 social-btn fb">
+                                    <h3 class = "social-txt facebook-txt">Facebook</h3>
+                                    <div class = "container">
+                                        <img src = "assets/glyphicons/facebook-letter-logo.svg">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href = "https://www.linkedin.com/in/sadat-shaik-415712126" target = "_blank">
+                                <div class = "col-xs-3 social-btn linkedin">
+                                    <h3 class = "social-txt">Linkedin</h3>
+                                    <div class = "container">
+                                        <img src = "assets/glyphicons/linkedin-logo.svg">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href = "https://github.com/ssddttaa" target = "_blank">
+                                <div class = "col-xs-3 social-btn github">
+                                    <h3 class = "social-txt">Github</h3>
+                                    <div class = "container">
+                                        <img src = "assets/glyphicons/github.svg">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href = "assets/Technical_Resume_Sadat_Shaik.pdf" target = "_blank">
+                                <div class = "col-xs-3 social-btn resume">
+                                    <h3 class = "social-txt">Resume</h3>
+                                    <div class = "container">
+                                        <img src = "assets/glyphicons/curriculum.svg">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "col-xs-3 col-md-4" id = "self-portrait">
+                        <img src = "assets/cropped_square_me.png" class =  "img-responsive">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class = "jumbotron jumbotron-transition">
-            <video loop muted autoplay poster = "assets/Thumbnail_Picture.png" class = "video-thumbnail">
-                <source src = "assets/Cut_Video.mp4" type = "video/mp4">
-            </video>
-    </div>
-
-    <div class = "jumbotron jumbotron-banner jumbotron-video-cards" id = "projects">
-        <div class = "container">
-            <div class = "row">
-                <h1 class = "projects"> Projects I've Worked On</h1>
-            </div>
-            <div class = "row white-background">
-                <div class = "col-xs-6" id = "video-view">
-                </div>
-                <div class = "col-xs-offset-1 col-xs-5 video-previewer" id = "video-previewer">
-                    <iframe src = "https://www.youtube.com/embed/7JTrPXHiUyw" class = "video-iframe" id = "video-iframe"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class = "jumbotron jumbotron-transition code-banner-background">
-        <div class = "row">
-            <img src = "assets/code_banner.png" class = "code-banner">
-        </div>
-    </div>
-
-    <div class = "jumbotron jumbotron-banner skills-banner banner-display-flex">
-        <div class = "container">
-            <div class = "row">
-                <h1> Skills </h1>
-            </div>
-        </div>
-    </div>
-    <!--<div class = "jumbotron jumbotron-banner skills-banner banner-display-flex">
-        <div class = "container vertical-center-container" id = "under_construction">
-            <div class = "row">
-                <div class = "hidden-xs col-lg-3">
-                    <span class="glyphicon glyphicon-search glyphicon glyphicon-alert bigger-glyphicon" aria-hidden="true"></span>
-                </div>
-                <div class = "col-xs-12 col-lg-6">
-                    <h1 class = "under-construction"> This website is still under construction!</h1>
-                </div>
-                <div class = "hidden-xs col-lg-3">
-                    <span class="glyphicon glyphicon-search glyphicon glyphicon-alert bigger-glyphicon" aria-hidden="true"></span>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
     <!-- Latest compiled and minified JavaScript -->
     <script src = "bower_components/jquery/dist/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src = "bower_components/flip/dist/jquery.flip.min.js"></script>
-    <script src = "js/main.js"></script>
+    <script src = "js/effects.js"></script>
 </body>
 </html>
