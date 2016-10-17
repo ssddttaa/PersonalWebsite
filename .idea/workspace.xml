@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92432090-730c-4843-9cf9-555105c11d62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Technical_Resume_Sadat_Shaik.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cropped_me.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/glyphicons/curriculum.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/glyphicons/facebook-letter-logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/glyphicons/facebook.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/glyphicons/github.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/glyphicons/linkedin-logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/effects.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/1200CSS.css" afterPath="$PROJECT_DIR$/css/1200CSS.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/320CSS.css" afterPath="$PROJECT_DIR$/css/320CSS.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/480CSS.css" afterPath="$PROJECT_DIR$/css/480CSS.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/768CSS.css" afterPath="$PROJECT_DIR$/css/768CSS.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/992CSS.css" afterPath="$PROJECT_DIR$/css/992CSS.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-shared.css" afterPath="$PROJECT_DIR$/css/main-shared.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="SadatWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -409,12 +393,12 @@
       <workItem from="1474038289862" duration="742000" />
       <workItem from="1475294570630" duration="791000" />
       <workItem from="1475808906105" duration="2193000" />
-      <workItem from="1475890520489" duration="8698000" />
+      <workItem from="1475890520489" duration="9510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109802000" />
+    <option name="totallyTimeSpent" value="110614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1280" height="773" extended-state="6" />
